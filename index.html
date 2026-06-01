@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Fitness — Personal Coach</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Ankit Fitness Logo">
+            </div>
+
+            <!-- Hamburger -->
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <!-- Mobile Drawer -->
+            <div class="mobile-drawer" id="drawer">
+                <a href="https://www.instagram.com/11ankit___11?igsh=MXEzbDhzOWp4bmlmeA==" target="_blank">Instagram</a>
+                <a href="https://www.instagram.com/11ankit___11?igsh=MXEzbDhzOWp4bmlmeA==" target="_blank">Message Me</a>
+                <a href="https://www.instagram.com/11ankit___11?igsh=MXEzbDhzOWp4bmlmeA==" target="_blank" class="drawer-cta">Book Appointment</a>
+            </div>
+
+            <!-- Desktop nav -->
+            <div class="nav-center">
+                <a href="https://www.instagram.com/11ankit___11?igsh=MXEzbDhzOWp4bmlmeA==" target="_blank" class="social-btn">Instagram</a>
+                <span class="dot">·</span>
+                <a href="https://www.instagram.com/11ankit___11?igsh=MXEzbDhzOWp4bmlmeA==" target="_blank" class="social-btn">Message Me</a>
+            </div>
+
+            <a href="https://www.instagram.com/11ankit___11?igsh=MXEzbDhzOWp4bmlmeA==" target="_blank" class="appointment-btn">
+                Book Appointment ↗
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="tag">✦ Fitness Coach</span>
+            <h1>Transform<br>Your Body</h1>
+            <p>Hi, I'm Ankit. I help people lose fat, gain muscle, and build sustainable fitness habits through personalized workout and nutrition guidance.</p>
+            <a href="https://www.instagram.com/11ankit___11?igsh=MXEzbDhzOWp4bmlmeA==" target="_blank" class="chat-btn">
+                Message on Instagram
+            </a>
+        </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="quote-section">
+        <p class="quote">"Your body can stand almost anything. It's your mind that you have to convince."</p>
+        <span class="quote-author">— Ankit Fitness Coaching</span>
+    </section>
+
+    <!-- About -->
+    <section class="about-section">
+
+        <div class="left-column">
+
+            <div class="stats-card">
+                <div class="stat-item">
+                    <h2>3+</h2>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <h2>10+</h2>
+                    <p>Clients Trained</p>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <h2>100K+</h2>
+                    <p>Instagram Views</p>
+                </div>
+            </div>
+
+            <div class="about-card">
+                <!-- Corner accents -->
+                <div class="corner tl"></div>
+                <div class="corner tr"></div>
+                <div class="corner bl"></div>
+                <div class="corner br"></div>
+
+                <!-- Grid texture overlay -->
+                <div class="grid-overlay"></div>
+
+                <!-- Glow orb -->
+                <div class="orb"></div>
+
+                <div class="about-card-inner">
+                    <span class="about-tag">✦ Who I Am</span>
+                    <h2>Meet<br>Ankit</h2>
+                    <div class="title-bar"></div>
+                    <h3>Personal Fitness Coach</h3>
+                    <p>I'm a 24-year-old fitness coach with 3 years of experience helping people improve their physique, strength, and overall health. My coaching focuses on realistic training plans, sustainable nutrition, and long-term results.</p>
+
+                    <div class="card-badges">
+                        <span>💪 Fat Loss</span>
+                        <span>🏋️ Muscle Gain</span>
+                        <span>🥗 Nutrition</span>
+                    </div>
+
+                    <a href="https://www.instagram.com/11ankit___11?igsh=MXEzbDhzOWp4bmlmeA==" target="_blank">
+                        <button>Contact Me ↗</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="trainer-placeholder">
+            <img src="Ankit.png" alt="Ankit - Personal Fitness Coach">
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div class="dev-card">
+                    <span class="dev-label">⚡ Developed by</span>
+                    <span class="dev-name">Divanshu</span>
+                    <span class="dev-label">© 2026 Ankit. All Rights Reserved.</span>
+                </div>
+                <a href="https://www.instagram.com/divanshuthakur_23?igsh=cWg0NGx5eDdxNHph" target="_blank" class="dev-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    @divanshuthakur_23
+                </a>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const drawer = document.getElementById('drawer');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            drawer.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
