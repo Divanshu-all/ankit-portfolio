@@ -524,17 +524,9 @@ footer {
 .dev-card {
     display: flex;
     align-items: center;
-    gap: 20px;
-    background: rgba(255,255,255,.04);
-    border: 1px solid rgba(255,255,255,.08);
-    border-radius: 14px;
-    padding: 14px 24px;
-    transition: border-color .2s;
+    gap: 8px;
 }
 
-.dev-card:hover {
-    border-color: rgba(232,255,71,.25);
-}
 
 .dev-left {
     display: flex;
@@ -561,18 +553,12 @@ footer {
     gap: 7px;
     text-decoration: none;
     color: var(--accent);
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
-    padding: 7px 14px;
-    border-radius: 30px;
-    border: 1px solid rgba(232,255,71,.25);
-    background: rgba(232,255,71,.06);
-    transition: background .2s, transform .2s;
 }
 
 .dev-link:hover {
-    background: rgba(232,255,71,.14);
-    transform: translateY(-1px);
+    opacity: 0.8;
 }
 
 @media (max-width: 480px) {
